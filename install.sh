@@ -12,6 +12,7 @@ cd poky;
 git checkout -b daisy origin/daisy;
 
 source oe-init-build-env;
+curl -O https://raw.githubusercontent.com/mansoorkodungallur/yocto/master/abc.txt
 
 cat abc.txt>conf/local.conf;
 
